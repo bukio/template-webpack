@@ -12,6 +12,7 @@
     "postcss-loader": "^5.2.0",
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
     "svelte": "^3.31.2",
     "svelte-check": "^1.4.0",
     "svelte-loader": "^3.0.0",
