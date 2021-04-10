@@ -1,11 +1,18 @@
-# svelte app
+# svelte app template for buk.io projects
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template-webpack.
+This is a project template for [Svelte](https://svelte.dev) apps. It is based on the official svelte template that lives at https://github.com/sveltejs/template-webpack.
+
+This repository has incorporated the following customizations reflecting the current development environment of the Buk.io dev team.
+
+- Webpack
+- Sass
+- Typescript
+- PostCSS (autoprefixer)
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template-webpack svelte-app
+npx degit https://github.com/bukio/template-webpack svelte-app
 cd svelte-app
 ```
 
@@ -47,18 +54,3 @@ now
 ```
 
 As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
